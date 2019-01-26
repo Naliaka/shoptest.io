@@ -1,0 +1,20 @@
+// Stacked Icons
+// -------------------------
+
+.#{murfa-css-prefix}-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.#{murfa-css-prefix}-stack-1x, .#{murfa-css-prefix}-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.#{murfa-css-prefix}-stack-1x { line-height: inherit; }
+.#{murfa-css-prefix}-stack-2x { font-size: 2em; }
+.#{murfa-css-prefix}-inverse { color: murfa-inverse; }
